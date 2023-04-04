@@ -1,6 +1,5 @@
 {
   inputs.nixpkgs.url = github:NixOS/nixpkgs;
-  inputs.disko.url = github:nix-community/disko;
   inputs.disko.inputs.nixpkgs.follows = "nixpkgs";
 
   outputs = { self, nixpkgs, disko, ... }@attrs: {
