@@ -12,7 +12,7 @@
             (modulesPath + "/profiles/qemu-guest.nix")
             "${builtins.fetchTarball "https://github.com/nix-community/disko/archive/master.tar.gz"}/module.nix"
           ];
-          disko.devices = import ./disk-config.nix {
+          disko.devices = nixpkgs.callPackage ./disko-config.nix
             lib = nixpkgs.lib;
           };
           boot.loader.grub = {
