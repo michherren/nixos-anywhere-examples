@@ -26,7 +26,7 @@
 
           users.users.root.openssh.authorizedKeys.keys = [
             # change this to your ssh key
-            "CHANGE"
+            "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvLOptRXuOhvUcwN/zhzVThWgGZ1d4QIQmmSy48H9TIhNqpCwHczL982F2emCO0gwG1+onfLZ8lEzIdo//QNnj9jTy0aSvAd2CjQEXDOgH8uIxWOIX8hT8mZ+xVkrNXLxN/5/+MxyOLWAlLpWBgfZPVr+G/j2JZ7Epbkj529lqsYeYen62koGF01YU+sZ/iaWCeJXSlSKGl3orOGSSLBj5wiwKAQFzlTNEJvt8MrVVJe1zUMyL6/RK8H+vZPzAslCVcXgiwYNT6Z0XNTQyHNh6Y1Sp94rt3XGyeh4A2117lEkaB+HTQDd2kjDP0Y0Evee2qkfiPcBLuoXyY2KY5YbxfFncYvlnYcTAL0ycMyhyVl6K5915Gpz+Fc1fuf8lUjusm4hunjiO+sHicOKeCA+1d2cObXPu3Zm1tliexvPuMPvc6uEeJ/RL45J1EdEMdYVOhG03dO1Eh4sjf49jSrBiEdzt0t4XjyKD6AUro1DeHCaGm1+WRdQbI+YO8+1wsu8= root@tailscale-kafka-local-b1"
           ];
         })
       ];
