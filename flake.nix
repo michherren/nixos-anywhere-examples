@@ -1,6 +1,5 @@
 {
   inputs.nixpkgs.url = github:NixOS/nixpkgs;
-  inputs.disko.inputs.nixpkgs.follows = "nixpkgs";
 
   outputs = { self, nixpkgs, disko, ... }@attrs: {
     nixosConfigurations.hetzner-cloud = nixpkgs.lib.nixosSystem {
